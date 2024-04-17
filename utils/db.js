@@ -42,7 +42,8 @@ class DBClient {
   async nbFiles() {
     return this.client.db().collection('files').countDocuments();
   }
-   /**
+
+  /**
    * Returns a reference to the `users` collection.
    * @returns {Promise<Collection>}
    */
